@@ -20,14 +20,14 @@ Skip newsletters, mass marketing, and unsubscribe-style blasts. Only process ema
 
 - Apply Gmail label `Label_4903901056127697918` (Personal/💍 Wedding) to the thread if not already applied
 - Extract: sender name, sender email, company/vendor name (from signature or email domain), and website if mentioned
-- Add the verbatim email body to the vendor's Notion page, preceded by a header line in the format: `**[Month Day, Year] — From: [Name] <[email]> — Subject: [subject]**` (e.g. `**April 6, 2026 — From: Wendi Junker <wendi.junker@wcep.com> — Subject: RE: Quote for September 19th Wedding**`)
+- Add the verbatim email body to the vendor's Notion page, preceded by a header line in the format: `**[Month Day, Year]**` (e.g. `**April 6, 2026**`)
 
 ### 3. Notion Vendors Database (`314c589608ba816a80e7e07f2c8b3f28`)
 
 Search for the vendor by name or email.
 
 **If vendor exists:**
-- Add the verbatim email body to the page content, preceded by a header line in the format: `**[Month Day, Year] — From: [Name] <[email]> — Subject: [subject]**` (e.g. `**April 6, 2026 — From: Wendi Junker <wendi.junker@wcep.com> — Subject: RE: Quote for September 19th Wedding**`)
+- Add the verbatim email body to the page content, preceded by a header line in the format: `**[Month Day, Year]**` (e.g. `**April 6, 2026**`)
 - **Do NOT change the status** — leave it as-is regardless of current value
 
 **If vendor does NOT exist (net new):**
