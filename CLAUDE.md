@@ -20,18 +20,18 @@ Skip newsletters, mass marketing, and unsubscribe-style blasts. Only process ema
 
 - Apply Gmail label `Label_4903901056127697918` (Personal/💍 Wedding) to the thread if not already applied
 - Extract: sender name, sender email, company/vendor name (from signature or email domain), and website if mentioned
-- Add a dated summary of the email content to the vendor's Notion page
+- Add the verbatim email body to the vendor's Notion page, preceded by a header line in the format: `**[Date] — From: [Name] <[email]> — Subject: [subject]**`
 
 ### 3. Notion Vendors Database (`314c589608ba816a80e7e07f2c8b3f28`)
 
 Search for the vendor by name or email.
 
 **If vendor exists:**
-- Add a dated note summarizing the email to the page content
+- Add the verbatim email body to the page content, preceded by a header line in the format: `**[Date] — From: [Name] <[email]> — Subject: [subject]**`
 - **Do NOT change the status** — leave it as-is regardless of current value
 
 **If vendor does NOT exist (net new):**
 - Create a new page with: `name`, `email`, `status: contacted`, and `website` if available
-- Add the email content as a dated note in the page body
+- Add the verbatim email body with the header line described above
 
 > `contacted` status is only ever set when **creating** a brand-new vendor entry. Never update an existing vendor's status during the morning scan.
