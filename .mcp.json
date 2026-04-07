@@ -2,7 +2,7 @@
   "mcpServers": {
     "gmail-label": {
       "command": "node",
-      "args": ["/home/user/gmail-label-mcp/index.js"]
+      "args": ["/Users/liliwalker/gmail-label-mcp/index.js"]
     }
   }
 }
